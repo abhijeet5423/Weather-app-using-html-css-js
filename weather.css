@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    gap: 20px;}
+    
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    
+
+}
+ul{
+    list-style: none;
+}
+.navbar-search input[type="text"] {
+    padding: 8px 10px; /* Adjust padding for better appearance */
+    font-size: 20px; /* Adjust font size */
+    border: 1px solid #e00e0e; /* Add a border */
+    border-radius: 4px 0 0 4px; /* Rounded corners on the left side */
+    outline: none; /* Remove default outline */
+}
+
+.navbar-search input[type="text"]:focus {
+    border-color: #4CAF50; /* Change border color on focus */
+}
+
+.navbar-search button {
+    padding: 8px 16px; /* Adjust padding */
+    font-size: 20px;
+    background-color: #4CAF50; /* Button background color */
+    color:white(207, 12, 12); /* Button text color */
+    border: 1px solid #4CAF50; /* Match border with background */
+    border-left: none; /* Remove left border to blend with input */
+    border-radius: 0 4px 4px 0; /* Rounded corners on the right side */
+    cursor: pointer; /* Pointer cursor on hover */
+    outline: none; /* Remove default outline */
+}
+
+.navbar-search button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+.maincard{
+    display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+
+
+
+}
+.weather {
+    width: 90%;
+    max-width:470px;
+    height: auto;
+    background:linear-gradient(135deg,#fe0000,#5b548a);
+    color: #fff;
+    margin:20px;
+    padding:40px 35px;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+
+}
+.humitdity .wind{
+    font-size: 28px;
+    margin-top: -8px;
+
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h1 {
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+
+.content-table {
+    
+ border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1.8em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+
+  

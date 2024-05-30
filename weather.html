@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="#">Weather App</a>
+        </div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            
+            <li><a href="#">Contact</a></li>
+            <div class="navbar-search">
+              <input type="text" id="city" placeholder="Enter City">
+              <button id="submit">Search</button>
+              <div id="data-container">
+            </div>
+        </ul>
+    </nav>
+    <div class="maincard">
+    
+    <div class="weather">
+      <img src="./images/clear.png"  class=wheathericon alt="rainpng">
+      <h1 class="temp">22°c</h1>
+      <h2 class="city">Weather For <span id="cityname">  </span></h2>
+      <div class="details">
+        <div class="col">
+          <img src="./images/humidity.png" alt="">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="./images/wind.png" alt="">
+          <div>
+            <p class="wind">15 km/hr </p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    
+</div>
+    </div>  </div>
+<
+    <script src="./weather.js"></script>
+</body>
+</html>
